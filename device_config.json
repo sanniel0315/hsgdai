@@ -1,0 +1,18 @@
+{
+    "T61-FQH-S-CAM-SP-07": "車",
+    "T61-FQH-S-CAM-SP-01": "人",
+    "T61-FQH-N-CAM-SP-02": "人",
+    "T61-FQH-N-CAM-SP-03": "車",
+    "T61-FQH-N-CAM-SP-04": "人",
+    "T61-FQH-S-CAM-SP-05": "人",
+    "T61-FQH-S-CAM-SP-06": "人",
+    "T61-FQH-S-CAM-SP-08": "人",
+    "T15-GNGS-S-CAM-SP-04": "車",
+    "T15-GNGS-N-CAM-SP-02": "人",
+    "T15-GNGS-N-CAM-SP-01": "車",
+    "T15-GNGS-S-CAM-SP-03": {
+        "105": "人",
+        "103": "人",
+        "106": "車"
+    }
+}

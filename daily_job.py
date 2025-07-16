@@ -23,7 +23,7 @@ PASSWORD = "PiXoRd168"
 DOWNLOAD_DIR = r"C:\Users\AIVT-LPR\Downloads\aidata_downloads"
 CHROMEDRIVER_PATH = os.path.join(os.path.dirname(__file__), 'drivers', 'chromedriver.exe')
 
-# ====== 日期定義 ======
+# ====== 日期定義 ======-sig
 run_date = datetime.date.today()
 data_date = run_date - datetime.timedelta(days=1)
 run_date_str = run_date.strftime("%Y%m%d")
@@ -35,7 +35,7 @@ try:
     with open(os.path.join(os.path.dirname(__file__), "device_config.json"), encoding="utf-8") as f:
         DEVICE_CONFIG = json.load(f)
 except FileNotFoundError:
-    print("❌ 錯誤：找不到 device_config.json 設定檔！")
+    print("❌ 錯誤：找不到 device_config.json 設定檔！")-sig
     DEVICE_CONFIG = {}
 
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
@@ -56,7 +56,7 @@ def process_logs(folder, ip, target_date_str, target_filename_date_str):
     """解析日誌檔案，處理所有找到的檢測結果。"""
     print(f"🔷 [{ip}] 開始解析 {target_date_str} 的資料…")
     # ... 此函式內容與前一版完全相同，此處省略以保持簡潔 ...
-    # (請參考前一回答中的完整 process_logs 函式內容)
+    
     for root, _, files in os.walk(folder):
         for fname in files:
             if not fname.lower().endswith(".txt"):

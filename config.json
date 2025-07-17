@@ -1,0 +1,35 @@
+{
+    "devices": {
+        "ips": [
+            "10.161.74.50",
+            "10.161.74.51",
+            "10.161.74.52",
+            "10.161.74.53",
+            "10.161.74.54",
+            "10.161.74.55",
+            "10.161.74.56",
+            "10.161.74.57",
+            "10.161.74.58",
+            "10.161.74.59",
+            "10.161.74.60",
+            "10.161.74.61"
+        ],
+        "credentials": {
+            "username": "admin",
+            "password": "PiXoRd168"
+        }
+    },
+    "execution": {
+        "max_workers": 2
+    },
+    "paths": {
+        "download_dir": "/home/fetiot/logs/AICCTV",
+        "windows": {
+            "chromedriver": "drivers/chromedriver.exe"
+        },
+        "linux": {
+            "chromedriver": "drivers/chromedriver-linux64/chromedriver",
+            "chrome_binary": "drivers/chrome-linux64/chrome"
+        }
+    }
+}
